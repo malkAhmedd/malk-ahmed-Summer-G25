@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.bg-white{
+    color: white;
+}
+.displayinline-block{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    padding: 1% 0%;
+
+}
+nav ul {
+       margin-left: 50%;
+       width: 30%;
+}
+nav ul li {
+    margin-left: 6%;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.863)
+}
+ul{
+    list-style: none;
+}
+.orange-color{
+    color: rgb(204, 83, 28);
+    font-weight: 100;
+}
+.padding-left-h1{
+    padding-left: 7%;
+}
+.bg-image{
+    background-image: url(../images/Urban\ Buildings\ in\ Guangzhou\ China.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 100%;
+    padding: 5%;
+    background-attachment: fixed;
+}
+.margin-bottom{
+    margin-bottom: 7%;
+}
+.hr-design{
+    width: 12%;
+    
+}
+.container{
+    width:36%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.design-font{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.button{
+
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid white;   
+    color: white;             
+    background:rgba(0, 0, 0, 0);   
+    border-radius: 3px;        
+    font-size: 16px;
+
+}
+.fontweight-h2{
+    font-weight:bolder;
+}
+form{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;  
+    background: white;
+    border-radius: 5px;
+    color: black;
+    margin-left: 30%;   
+    margin-top: 3%;    
+
+}
+.forminput {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+ box-shadow: 2px 2px 1px 1px lightgray;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+ 
+}
+.text-style{
+    text-align: center;
+    margin-bottom: 6%;
+    padding-top: 5%;
+}
+.submit-button{
+    display: block;             
+    width: 100%;                
+    background-color: #ff7f32;   
+    color: white;                
+    border: none;               
+    padding: 12px 0;            
+    border-radius: 3px;         
+    font-size: 16px;            
+    font-weight: bold;    
+     margin-top: auto;   
+         
+}
+.design-font{
+    color: rgba(211, 211, 211, 0.87);
+}
+.padding-left{
+    padding:6%;
+}
