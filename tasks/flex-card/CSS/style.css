@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-header a:hover{
+     color: rgb(7, 238, 188);
+}
+.card-header i:hover{
+     color: rgb(7, 238, 188);
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 3% 0%;
+}
+
+.bg-light {
+    background-color: rgb(238, 238, 238);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-blue {
+    background-color: lightblue;
+}
+
+.bg-mint{
+    color: rgb(7, 238, 188);
+}
+.bg-dark{
+    background-color: #313131;
+}
+.position-relative{
+    position: relative;
+}
+
+
+.flex-box {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: antiquewhite;
+   
+    align-items: center;
+   
+}
+
+.custom-align-self {
+    align-self: flex-end;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0px 0px 5px 4px lightgray;
+    padding: 2%;
+    background-color: white;
+}
+
+
+
+.custom-height {
+    height: 500px;
+}
+.services-card {
+  width: 30%;
+  box-shadow: 0px 0px 5px 2px rgb(174, 174, 174);
+  margin-top: 4%;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.services-card img{
+    width: 100%;
+    display: block;
+}
+.services-card-body{
+    padding: 3%;
+}
+.card-overlay{
+    background-color: rgba(18, 18, 18, 0.705);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 3%;
+    align-items: center;
+    display: none;
+}
+.card-overlay a {
+  margin-top: auto;   
+  margin-bottom: 3%; 
+}
+
+
+.custom-flex{
+        flex-direction: column;
+    justify-content: center;
+}
+.services-card:hover .card-overlay{
+    display: flex;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;             
+  font-size: 14px;
+  color: gray;
+  padding: 8px 10px;
+  background: #fff;      
+  border-bottom: 1px solid #ddd;
+}
+
+.card-header i {
+  color: #444;
+  font-size: 13px;
+}
+
+
+.displayinline-block{
+    display: inline-block;
+     vertical-align: top;
+}
+
+.line{
+    width: 10%;
+   height: 5px;
+    margin: 5% 0%;
+    
+}
+.author {
+  position: absolute;
+  bottom: -25px;
+  right: 15px;
+}
+
+.author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
