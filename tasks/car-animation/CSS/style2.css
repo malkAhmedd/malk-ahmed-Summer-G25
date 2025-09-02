@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+}
+.bg-image {
+  background-image: url(../images/7f65f93dc9ab70a6f76c886e6a1fd20e.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+  overflow: hidden;  
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin-top: 7%;
+}
+
+.car {
+  position: absolute;
+  animation: moveCar 2s linear infinite;
+}
+
+@keyframes moveCar {
+  0%{  margin-right:100%;}
+  100% { margin-left:100%; }
+}
