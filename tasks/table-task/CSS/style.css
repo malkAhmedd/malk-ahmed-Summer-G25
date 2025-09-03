@@ -1,0 +1,43 @@
+
+:root{
+    --light : rgb(226, 226, 226);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table , th , td{
+    border: 3px solid white;
+}
+th , td{
+    padding: 1%;
+}
+th{
+    background-color: rgb(84, 179, 179);
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: var(--light);
+}
+tr:nth-child(odd) td {
+  border-bottom: 3px solid rgb(84, 179, 179);
+}
+
+tr:nth-child(even) td {
+  border-bottom: 3px solid rgb(84, 179, 179);
+}
+td:first-child{
+    border-bottom:none !important;
+}
