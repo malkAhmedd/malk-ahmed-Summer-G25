@@ -1,0 +1,143 @@
+@media(max-width:575px){
+.menu{
+    display:none;
+}
+.btn-cta{
+    display:none;
+}
+.hero{
+    background-size: 120% 100%;
+
+}
+.display-hidden{
+    display:block;
+}
+.hero-content h1{
+    font-size: 18px;
+}
+.hero-content p {
+  font-size: 12px;
+ 
+}
+
+.btn-shop {
+  padding: 5% 2%;
+ 
+ 
+  
+}
+.hero-content {
+  padding: 8% 0%;
+   width: 85%;
+   
+
+}
+.logo {
+    font-size: 14px;
+}
+.font-i{
+     font-size: 14px;
+}
+.search-box input{
+display :none;
+}
+
+
+.menu2{
+    gap:10px;
+    
+    
+}
+
+.a-viewmore{
+    display: none;
+}
+.Feature-product {
+  background: #fff;
+  padding: 2% 2%;
+  margin-top: 2%;
+  width: 70%;
+  border: none;
+  margin-left: 12%; 
+
+}
+
+
+.about-images{
+    display: none;
+
+}
+.about-us{
+    border:none;
+}
+.team-member {
+ 
+  padding: 2%;
+ flex: 1 1 40%; 
+  text-align: center;
+}
+.card-img-position{
+    display: none;
+}
+.img-hidden{
+    display:none;
+}
+  .contact-wrapper {
+    flex-direction:column;
+  }
+
+  .form {
+    order: 2; 
+    width:80%;
+  }
+
+  .contact-info {
+    order: 1; 
+  }
+  .service-card{
+    width:45%;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .div-photos{
+    width: 100%;
+  }
+  .photo-right{
+    width: 100%;
+  }
+
+
+  .footer {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .input-footer {
+    margin-left: 0;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-footer input {
+    width: 90%;
+  }
+
+  .input-footer a {
+    width: 50%;
+    text-align: center;
+  }
+
+  .sec-ul {
+    display: flex;
+  flex-wrap: wrap;
+    
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .sec-ul ul {
+    margin: 0 auto;
+  }
+}
